@@ -327,13 +327,13 @@
 };
 
 &hdmi0 {
-	status = "okay";
+	status = "disabled";
 	enable-gpios = <&gpio4 RK_PB1 GPIO_ACTIVE_HIGH>;
 	cec-enable = "true";
 };
 
 &hdmi0_in_vp0 {
-	status = "okay";
+	status = "disabled";
 };
 
 &hdmi0_in_vp1 {
@@ -345,7 +345,7 @@
 };
 
 &hdmi0_sound {
-	status = "okay";
+	status = "disabled";
 };
 
 &hdmi1 {
@@ -384,7 +384,7 @@
 };
 
 &hdptxphy_hdmi0 {
-	status = "okay";
+	status = "disabled";
 };
 
 &hdptxphy_hdmi1 {
